@@ -1,0 +1,22 @@
+.product-item {
+  border-radius: 5px;
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.product-item .item-cont {
+  padding: 5px;
+}
+
+.product-item img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

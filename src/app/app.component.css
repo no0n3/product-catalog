@@ -1,0 +1,23 @@
+.page-cont {
+  width: 800px;
+  margin: auto;
+}
+
+.category-item {
+  padding: 5px;
+}
+
+.category-item.selected {
+  background-color: chartreuse;
+}
+
+.category-item:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+
+@media only screen and (max-width: 800px) {
+  .page-cont {
+    width: 100%;
+  }
+}

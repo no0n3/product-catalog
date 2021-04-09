@@ -1,0 +1,7 @@
+<div *ngIf="show" class="modal-body">
+  <img [src]="product.image_path" />
+  <div>
+    <div *ngFor="let field of productFields()">{{ field.label }}: {{ field.name }}</div>
+  </div>
+  <button class="close-btn" (click)="close()">x</button>
+</div>

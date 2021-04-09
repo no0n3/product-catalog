@@ -1,0 +1,29 @@
+.modal-body {
+  width: 500px;
+  position: fixed;
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.modal-body .close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .modal-body {
+    width: 85%;
+    margin: 5px;
+  }
+}
